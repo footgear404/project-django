@@ -25,7 +25,7 @@ SECRET_KEY = 'y@ibq12^e_dt50x*2inec2p!8#^j3bd=60*b#k^4punb8(zr@h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['172.17.45.61']
+ALLOWED_HOSTS = ['172.17.45.61', 'localhost']
 
 
 # Application definition
