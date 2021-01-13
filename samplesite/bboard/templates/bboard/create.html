@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"; http-equiv="Content-Type" content="text/html">
+	<title>Добавление объявления</title>
+</head>
+<body>
+	<div>
+		<h1>Объявления</h1>
+		<h2>Добавьте объявление</h2>
+		<a href="{% url 'index' %}">Главная</a>
+		{% for rubric in rubrics %}
+		<a href="{% url 'by_rubric' rubric.pk %}"> {{ rubric.name }}</a>
+		{% endfor %}
+		<a href="{% url 'add' %}">Добавить</a>
+	</div>
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="Добавить">
+	</form>
+</body>
+</html>
