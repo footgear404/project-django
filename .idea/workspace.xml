@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cddea19c-463f-421a-b734-56c210bb22e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/layout/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/by_author.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplesite/bboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/by_rubric.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/by_rubric.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/layout/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +39,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/samplesite/bboard/templates/bboard" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/samplesite/bboard/templates/bboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/samplesite/bboard/templates/bboard/layout" />
     </key>

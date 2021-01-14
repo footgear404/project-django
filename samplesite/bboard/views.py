@@ -31,3 +31,12 @@ def by_rubric(request, rubric_id):
     current_rubric = Rubric.objects.get(pk=rubric_id)
     context = {'bbs': bbs, 'rubrics': rubrics, 'current_rubric': current_rubric}
     return render(request, 'bboard/by_rubric.html', context)
+
+
+def by_author(request, author_name):
+    x = request.user.id
+    author = author_name
+    posts = Bb.objects.filter(author=request.user)
+    rubrics = Rubric.objects.all()
+    context = {'author': author, 'posts': posts, 'rubrics': rubrics, 'x': x}
+    return render(request, 'bboard/by_author.html', context)

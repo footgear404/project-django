@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class Bb(models.Model):
-    author = models.ForeignKey(User, related_name='bboard_post')
+    author = models.ForeignKey(User, related_name='bboard_post', on_delete=models.CASCADE, verbose_name="Автор")
     title = models.CharField(max_length=50, verbose_name='Товар')
     content = models.TextField(null=True, blank=True, verbose_name='Описание')
     price = models.FloatField(null=True, blank=True, verbose_name='Цена')
